@@ -2,5 +2,7 @@ from django.shortcuts import render
 
 from django.http import HttpResponse
 
-def wani(request):
-    return HttpResponse("Hello From Recommender!")
+
+
+def index(request):
+    return render(request, 'index.html')
